@@ -2,7 +2,7 @@
   "name": "clean-node-api",
   "version": "1.0.0",
   "description": "Construindo uma API Rest em NodeJS utilizando TDD, Clean Architecture e Design Patterns.",
-  "author": "Rodrigo Manguinho",
+  "author": "Robson Silva",
   "license": "ISC",
   "main": "src/main/index.js",
   "scripts": {
