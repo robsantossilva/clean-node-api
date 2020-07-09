@@ -12,7 +12,8 @@
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests --silent",
     "test:ci": "npm test -- --coverage --silent",
-    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info"
+    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info",
+    "teste": "jest --colors --noStackTrace"
   },
   "standard": {
     "env": [
@@ -34,6 +35,6 @@
     "fast-glob": "^3.1.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.3.5",
-    "validator": "^12.1.0"
+    "validator": "^12.2.0"
   }
 }
